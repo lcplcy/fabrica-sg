@@ -1,0 +1,27 @@
+2013-09-02 13:15:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/bootstrap.css
+Stack Trace:
+#0 /Users/rtlusr/fabrica-sg/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-02 13:15:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/bootstrap.js
+Stack Trace:
+#0 /Users/rtlusr/fabrica-sg/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-02 13:15:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jquery-1.9.1.js
+Stack Trace:
+#0 /Users/rtlusr/fabrica-sg/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

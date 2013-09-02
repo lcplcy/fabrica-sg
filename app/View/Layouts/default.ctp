@@ -30,33 +30,32 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 	<?php
 		echo $this->Html->meta('icon');
 
-		echo $this->Html->css('cake.generic');
+		echo $this->Html->css('bootstrap');
+		echo $this->Html->script('bootstrap');
+		echo $this->Html->script('jquery-1.9.1');
 
-		echo $this->fetch('meta');
-		echo $this->fetch('css');
-		echo $this->fetch('script');
+		
 	?>
 </head>
 <body>
-	<div id="container">
-		<div id="header">
-			<h1><?php echo $this->Html->link($cakeDescription, 'http://cakephp.org'); ?></h1>
-		</div>
-		<div id="content">
-
-			<?php echo $this->Session->flash(); ?>
-
-			<?php echo $this->fetch('content'); ?>
-		</div>
-		<div id="footer">
-			<?php echo $this->Html->link(
-					$this->Html->image('cake.power.gif', array('alt' => $cakeDescription, 'border' => '0')),
-					'http://www.cakephp.org/',
-					array('target' => '_blank', 'escape' => false)
-				);
-			?>
-		</div>
-	</div>
-	<?php echo $this->element('sql_dump'); ?>
+	<div class="navbar navbar-inverse navbar-fixed-top">
+ 		<div class="navbar-inner">
+ 			<div class="container">
+ 				<a class="brand" href="#">Fabrica</a>
+ 				<div class="nav-collapse collapse">
+					<ul class="nav">
+						<li><a href="#">Kids for Kids</a></li>
+						<li><a href="#">Events/Occasions</a></li>
+						<li><a href="#">Educational Models</a></li>
+						<li><a href="#">Corporate Gifts</a></li>
+					</ul>
+					<ul class="nav pull-right">
+					<li><a href="login.php">Register/Login</a></li>
+					</ul>
+				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+	
 </body>
 </html>
