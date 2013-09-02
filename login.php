@@ -2,8 +2,11 @@
  <head>
   <title>Fabrica | Login/Register</title>
   <link rel = "stylesheet" href = "css/bootstrap.css" media="screen">
+  <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
   <style type="text/css">
-  	body {
+  	
+    body {
         padding-top: 40px;
         padding-bottom: 40px;
         background-color: #f5f5f5;

@@ -18,7 +18,7 @@
 						<li><a href="#">Corporate Gifts</a></li>
 					</ul>
 					<ul class="nav pull-right">
-					<li><a href="login.php">Register/Login</a></li>
+						<li><a href="login.php">Register/Login</a></li>
 					</ul>
 				</div>
  			</div>
