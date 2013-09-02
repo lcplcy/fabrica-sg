@@ -6,6 +6,15 @@
 	<script type="text/javascript" src="js/bootstrap.js"></script>
  </head>
  <body>
+ 
+	 <div class="jumbotron">
+	  <div class="container">
+		<h1>Hello, world!</h1>
+		<p>...</p>
+		<p><a class="btn btn-primary btn-lg">Learn more</a></p>
+	  </div>
+	</div>
+ 
  	<div class="navbar navbar-inverse navbar-fixed-top">
  		<div class="navbar-inner">
  			<div class="container">
